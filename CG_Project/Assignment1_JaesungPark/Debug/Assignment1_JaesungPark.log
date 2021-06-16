@@ -1,0 +1,20 @@
+﻿Build started 2020-12-22 오전 12:26:23.
+     1>Project "C:\Users\Jaesung Park\Desktop\pjs\Assignment1_JaesungPark\Assignment1_JaesungPark.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignment1_JaesungPark.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Jaesung Park\Desktop\opencv\build\include" /I../freeglut/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\jaesung park\desktop\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\users\jaesung park\desktop\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\users\jaesung park\desktop\opencv\build\include\opencv2\core\utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\users\jaesung park\desktop\pjs\assignment1_jaesungpark\source.cpp(287): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jaesung Park\Desktop\pjs\Debug\ASS1_question2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Jaesung Park\Desktop\opencv\build\x86\vc12\lib" /LIBPATH:../freeglut/lib glew32.lib glut32.lib freeglut.lib opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jaesung Park\Desktop\pjs\Debug\ASS1_question2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jaesung Park\Desktop\pjs\Debug\ASS1_question2.lib" /MACHINE:X86 Debug\Source.obj
+         Assignment1_JaesungPark.vcxproj -> C:\Users\Jaesung Park\Desktop\pjs\Debug\ASS1_question2.exe
+       RegisterOutput:
+         "C:\Users\Jaesung Park\Desktop\pjs\Debug\ASS1_question2.exe" /RegServer
+     1>Done Building Project "C:\Users\Jaesung Park\Desktop\pjs\Assignment1_JaesungPark\Assignment1_JaesungPark.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.73
